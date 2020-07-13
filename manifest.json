@@ -1,7 +1,7 @@
 {
-    "name": "auto-clean",
+    "name": "clean after session",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "clean after session.",
     "manifest_version": 2,
     "permissions": ["storage", "history"],
     "options_page": "options.html",
