@@ -1,18 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <style>
-        button {
-            height: 200px;
-            width: 200px;
-            outline: none;
+        * {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .container-extension {
+            width: 250px;
+        }
+
+        .content-length {
+            align-items: center;
+            text-align: center;
+            font-size: 38px;
+        }
+
+        .content-length img {
+            height: 30px;
+        }
+
+        .content-config {
+            padding: 10px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            margin: 3px;
+        }
+
+        .col-label {
+            margin: 5px;
+        }
+
+        #deleteAllHistory {
+            height: 25px;
+            width: 100%;
+        }
+
+        .notify-container img {
+            position: relative;
+            align-items: center;
+            height: 18px;
+        }
+
+        .language-container {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 12px;
+            margin: 2px;
+        }
+
+
+        .language-container select {
+            font-size: 10px;
         }
     </style>
 </head>
 
 <body>
-    <button id="changeColor"></button>
+    <div class="container-extension">
+
+        <div class="content-length">
+            <span title="Quantidade de paginas abertas na sessão." id="lengthHistory"></span>
+        </div>
+
+        <div class="content-config">
+
+            <div class="row">
+                <div class="col-input">
+                    <input type="checkbox">
+                </div>
+                <div class="col-label">
+                    <label>Excluir histórico ao fechar a sessão.</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-input">
+                    <input type="checkbox">
+                </div>
+                <div class="col-label">
+                    <label>Excluir histórico de downloads ao fechar a sessão.</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-input">
+                    <input type="checkbox">
+                </div>
+                <div class="col-label">
+                    <label>Excluir cookies ao fechar a sessão.</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <button id="deleteAllHistory">
+                    <!-- <img src="assets/trash.svg"> -->
+                    <span>Excluir historico completo</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="notify-container">
+            <img src="assets/bell.svg" alt="config">
+        </div>
+
+        <div class="language-container">
+            <select name="lang" id="lang">
+                <option value="volvo">Português</option>
+                <option value="saab">English</option>
+                <option value="opel">Espanhol</option>
+            </select>
+        </div>
+    </div>
     <script src="scripts/popup.js"></script>
 </body>
 
