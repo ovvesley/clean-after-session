@@ -59,6 +59,6 @@ Ao se iniciar a sessão o Clear History Chrome exclui completamente o seu histó
 
 [MIT License].
 
-Enjoy :metal:
-
-feito com :heart para o mundo.
+<p align="center"> 
+  feito com :hearts para o mundo.
+</p>
