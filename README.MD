@@ -60,5 +60,5 @@ Ao se iniciar a sessão o Clear History Chrome exclui completamente o seu histó
 [MIT License].
 
 <p align="center"> 
-  feito com :hearts para o mundo.
+  feito com :hearts: para o mundo.
 </p>
