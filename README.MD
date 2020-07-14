@@ -31,7 +31,7 @@
 
 <p>
 
-Ao se inciar a sessão o Clear History Chrome exclui completamente o seu histórico; deixando sua navegação mais limpa. 
+Ao se iniciar a sessão o Clear History Chrome exclui completamente o seu histórico; deixando sua navegação mais limpa. 
 
 </p>
 
