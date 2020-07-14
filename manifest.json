@@ -1,14 +1,20 @@
 {
-    "name": "clean after session",
+    "name": "Clear History Chrome",
     "version": "1.0",
-    "description": "clean after session.",
+    "description": "Clear history Chrome.",
     "manifest_version": 2,
-    "permissions": ["storage", "history", "declarativeContent"],
-    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "history",
+        "declarativeContent"
+    ],
+    "icons": {
+        "128": "assets/icon128.png"
+    },
     "background": {
         "scripts": [
             "scripts/background.js"
-        ], 
+        ],
         "persistent": true
     },
     "browser_action": {

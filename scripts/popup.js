@@ -36,7 +36,13 @@ function handleClickBtnDeleteAllHistory() {
 function setCountHistoryInView(length) {
     const elSpanDocument = document.getElementById("lengthHistory");
 
-    elSpanDocument.textContent = length;
+    if (Number(length) === 99) {
+        elSpanDocument.textContent = length + "+";
+
+    } else {
+        elSpanDocument.textContent = length;
+
+    }
 }
 
 function deleteSuccess() {
