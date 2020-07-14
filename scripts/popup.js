@@ -21,17 +21,6 @@ function handlerListener() {
     const inputDeleteHistoryCloseSession = document.getElementById("deleteHistoryCloseSession");
     inputDeleteHistoryCloseSession.addEventListener("change", handleInputConfigAutoClean)
 
-    const inputDeleteHDownloadCloseSession = document.getElementById("deleteHDownloadCloseSession");
-    inputDeleteHDownloadCloseSession.addEventListener("change", handleInputConfigAutoClean)
-
-
-    const inputDeleteCookiesCloseSession = document.getElementById("deleteCookiesCloseSession");
-    inputDeleteCookiesCloseSession.addEventListener("change", handleInputConfigAutoClean)
-
-    console.log(inputDeleteHistoryCloseSession.nodeValue)
-    console.log(inputDeleteHDownloadCloseSession.nodeValue)
-    console.log(inputDeleteCookiesCloseSession.nodeValue)
-
 
 }
 
