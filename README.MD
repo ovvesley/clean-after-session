@@ -61,4 +61,4 @@ Ao se iniciar a sessão o Clear History Chrome exclui completamente o seu histó
 
 Enjoy :metal:
 
-feito com :hert para o mundo.
+feito com :heart para o mundo.
