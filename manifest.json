@@ -3,13 +3,13 @@
     "version": "1.0",
     "description": "clean after session.",
     "manifest_version": 2,
-    "permissions": ["storage", "history"],
+    "permissions": ["storage", "history", "declarativeContent"],
     "options_page": "options.html",
     "background": {
         "scripts": [
             "scripts/background.js"
-        ],
-        "persistent": false
+        ], 
+        "persistent": true
     },
     "browser_action": {
         "default_popup": "popup.html"
